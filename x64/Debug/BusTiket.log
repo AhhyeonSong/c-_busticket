@@ -1,0 +1,18 @@
+﻿빌드 시작: 2016-11-09 오전 11:24:21
+     1>2 노드의 "D:\1학년\Visual Studio 2013\BusTiket\BusTiket\BusTiket.vcxproj" 프로젝트(Build 대상)입니다.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /sdl /Od /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt main.cpp
+         main.cpp
+     1>main.cpp(400): warning C4390: ';' : 제어된 빈 문이 있습니다. 이 문이 필요합니까?
+     1>main.cpp(391): warning C4101: 'count' :참조되지 않은 지역 변수입니다.
+     1>main.cpp(418): warning C4305: '초기화 중' : 'int'에서 'char'(으)로 잘립니다.
+     1>main.cpp(418): warning C4309: '초기화 중' : 상수 값이 잘립니다.
+     1>main.cpp(477): warning C4101: 'mySeat' :참조되지 않은 지역 변수입니다.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\1학년\Visual Studio 2013\BusTiket\x64\Debug\BusTiket.exe" /INCREMENTAL /NOLOGO libmysql.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\1학년\Visual Studio 2013\BusTiket\x64\Debug\BusTiket.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\1학년\Visual Studio 2013\BusTiket\x64\Debug\BusTiket.lib" /MACHINE:X64 x64\Debug\main.obj
+         BusTiket.vcxproj -> D:\1학년\Visual Studio 2013\BusTiket\x64\Debug\BusTiket.exe
+     1>"D:\1학년\Visual Studio 2013\BusTiket\BusTiket\BusTiket.vcxproj" 프로젝트를 빌드했습니다(Build 대상).
+
+빌드했습니다.
+
+경과 시간: 00:00:02.82
